@@ -10,3 +10,7 @@
 // Write a function "helloDefault" such that if no name is given it will return
 // 'Hello, world!'
 // Otherwise it behaves the same as the "hello" function.
+
+function hello(aName) {
+    console.log(`Hello, ${aName}`)
+}
