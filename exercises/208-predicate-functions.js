@@ -20,7 +20,14 @@
 // isVowel(99) --> false
 // isVowel({e: 'Elephant'}) --> false
 
-
+function isVowel(character) {
+    if(character == 'A' || character == 'a' || character == 'E' || character == 'e' || character == 'I' || character == 'i' || character == 'O' || character == 'o' || character == 'U' || character == 'u') {
+        return true
+    }
+    else {
+        return false
+    }
+}
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Write two functions: "isEven" and "isOdd" that take a number argument and
