@@ -43,7 +43,25 @@ function isVowel(character) {
 // isOdd('7') --> false
 // isOdd(3.14) --> false
 
+function isEven(someNumber) {
+    if (someNumber%2 == 0) {
+        return true
+    }
+    else {
+        return false //fix add else if
+    }
+}
 
+console.log(isEven(579))
+
+function isOdd(someNumber) {
+    if(someNumber%2 !== 0) {
+        return true
+    }
+    else {
+        return false //fix add else if
+    }
+}
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Write a function "isCapitalCity" that takes two arguments: a US state and a city name
